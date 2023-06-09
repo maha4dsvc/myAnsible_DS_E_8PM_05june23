@@ -25,7 +25,7 @@
   - name: i want to start webserver on RedHat
     service:
         name: httpd
-        state: present
+        state: started
     when: ansible_os_family =="RedHat"
 
 
