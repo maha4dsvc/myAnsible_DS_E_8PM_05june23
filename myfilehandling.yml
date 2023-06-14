@@ -7,3 +7,9 @@
     apt:
      name: apache2
      state: present
+
+  - name:  i want to copy mytestfile into node side
+    copy:
+      src: mytestfile
+      dest: /home/ubuntu/mytestfile
+  
